@@ -47,7 +47,7 @@ app.delete('/books/:id', function(req, res, next){
   books.splice(req.params.id, 1);
   res.send(books);
 })
-  //reqs.params = {id: 1 }
+  //reqs.params = {id: 1}
 
 var port = 3000;
 app.listen(port, function(){
